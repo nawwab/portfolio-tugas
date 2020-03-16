@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.socmed{
+    display: flex;
+    height: 40px;
+    width: 100%;
+    background-color: white;
+}
+
+.navbar--lists-wrapper{
+    margin: auto;
+    height: inherit;
+    width: 300px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar--list{
+    display: inherit;
+    height: inherit;
+    align-items: center;
+}
+
+.navbar--list img{
+    width: 20px;
+}
+
+.jumbotron{
+    height: 550px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+
+.jumbotron--intro-wrapper{
+    margin: auto;
+    width: 600px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.jumbotron--photo{
+    width: 250px;
+    border-radius: 50%;
+}
+
+.header{
+    font-size: 48px;
+}
+
+.title-desc{
+    font-size: 24px;
+}
+
+.button{
+    width: 125px;
+    height: 40px;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: black;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.button a{
+    font-size: 16px;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+.button a:hover{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+}
+
+.projects-list{
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    box-sizing: content-box;
+    justify-content: center;
+}
+
+.project{
+    margin: 40px;
+    height: 80%;
+    width: 310px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project img{
+    object-fit: cover;
+    height: 100%;
+    filter: brightness(50%);
+}
+
+.project h2{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-weight: 100;
+}
+
+.footer{
+    display: flex;
+    height: 25px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p{
+    font-size: 10px;
+}
+
+/* for blogging */
+.margin{
+    padding: 0 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90vh;
+}
+
+.title{
+    font-size: 100px;
+    width: 300px;
+}
+
+.content{
+    width: 600px;
+    font-size: 24px;
+}
+
+.code{
+    background-color: rgb(196, 196, 196);
+    font-size: 16px;
+}
+
+
+
+
+
